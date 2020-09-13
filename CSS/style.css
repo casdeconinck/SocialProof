@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+  background-position: top 0 left 0, bottom 0 right 0;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #502050;
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+p {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: white;
+  clear: left;
+}
+
+h5 {
+  color: white;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+}
+
+h6 {
+  color: #ee68a4;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+span{
+  margin-right:15px;
+}
+
+.top-container {
+  position: relative;
+  top: 120px;
+  left: 120px;
+  width: 1250px;
+}
+
+.top-left {
+  width: 450px;
+}
+
+.star-box-1 {
+  background-color: #f7f2f7;
+  border-radius: 7%;
+  position: absolute;
+  right: 80px;
+  top: 20px;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.star-box-2 {
+  background-color: #f7f2f7;
+  border-radius: 7%;
+  position: absolute;
+  right: 50px;
+  top: 90px;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.star-box-3 {
+  background-color: #f7f2f7;
+  border-radius: 7%;
+  position: absolute;
+  right: 20px;
+  top: 160px;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.bottom-container {
+  position: relative;
+  top: 200px;
+  left: 120px;
+  width: 1250px;
+}
+
+.person-1 {
+  background-color: #502050;
+  width: 350px;
+  padding: 25px 20px;
+  border-radius: 3%;
+}
+
+.person-2 {
+  position: absolute;
+  background-color: #502050;
+  width: 350px;
+  padding: 25px 20px;
+  border-radius: 3%;
+  left:430px;
+  top:20px;
+
+}
+
+.person-3 {
+  position: absolute;
+  background-color: #502050;
+  width: 350px;
+  padding: 25px 20px;
+  border-radius: 3%;
+  right:0;
+  top:40px;
+}
+
+.attribution{
+  width:100%;
+  position:absolute;
+  bottom:10px;
+  left:500px;
+
+}
+
+.checked {
+  color: orange;
+}
+
+.stars {
+  color: #502050;
+  font-weight: 700;
+}
+
+.ptop {
+  color: #937b92;
+}
+
+.person {
+  float: left;
+  border-radius: 100%;
+  Margin-right: 20px;
+  margin-bottom: 20px;
+}
